@@ -41,3 +41,63 @@ hr {
 .navbar-nav .nav-link:hover {
     color: #70d1fa;
 }
+
+/* CSS PARA PÁGINA DE PROMOÇÕES */
+
+.imagem-de-fundo {
+    background-image: url('imagens/promoções/ferias-xl.jpg');
+    background-size: cover;
+    color: #ffffff;
+  }
+
+.imagem-de-fundo h1 {
+padding-top: 40px;
+font-size: 64px;
+}
+
+.imagem-de-fundo p {
+margin-top: 20px;
+}
+
+.tamanhopromocao {
+    height: 77vh;
+}
+
+.accordion-button {
+    background-color: rgba(128, 128, 128, 0.233) !important;
+    border: none;
+    color: white;
+  }
+
+.accordion-body {
+    color: white;
+}
+  
+.accordion .accordion-item {
+background-color: transparent;
+border: none; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: #70d1fa;
+  }
+  
+.accordion-button.collapsed {
+color: #ffffffa1;
+}
+
+.accordion-button:focus {
+box-shadow: none;
+}
+
+.footercontato {
+    margin: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bodysection {
+    height: auto;
+    width: auto;
+}
