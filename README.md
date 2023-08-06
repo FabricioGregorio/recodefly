@@ -29,6 +29,7 @@ __Objetivos:__
 - Formatações de acordo com a paleta de cores escolhida. Cores: #3A9CC6 (Cor principal), #70D1FA (Cor secundária).
 
 __Páginas Propostas:__
+*Obs:* Asterisco no item que não deu tempo de fazer.
 
 1. Início:
    * Página responsiva com Navbar, onde contém logo fictícia e campo de busca.
@@ -50,7 +51,6 @@ __Páginas Propostas:__
    * Lado esquerdo com um forms para preenchimento de email e mensagem.
    * Lado direito com uma lista de informações para contato.
 
-_Obs:_Asterisco no item que não deu tempo de fazer.
 _Para contato:_ 
 * Twitter: @fabriciosgreg
 * GitHub: FabricioGregorio
