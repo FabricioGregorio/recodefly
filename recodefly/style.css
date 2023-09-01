@@ -3,6 +3,55 @@
     src: url(fontes/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
 }
 
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+/* estrutura do site */
+.container-fluido {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas: 
+        "header"
+        " main" 
+        " footer";
+}
+.header {
+    grid-area: header;
+    width: 100%;
+}
+.main-content {
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    grid-area: footer;
+    width: 100%;
+    height: 100%;
+}
+/*------------------------------------*/
+
+/* css para cards da página destinos */
+.card {
+    height: 100%;
+    box-shadow: black 0px 0px 10px;
+}
+.card a {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.card-header {
+    height: 100px;
+}
+.botao-destino {
+    height: 100%;
+    width: 100%;
+}
+/*------------------------------------*/
+
 .texto-menor {
     font-size: 13px;
 }
@@ -60,7 +109,7 @@ margin-top: 20px;
 }
 
 .tamanhopromocao {
-    height: 77vh;
+    height: 100%;
 }
 
 .accordion-button {
@@ -89,15 +138,4 @@ color: #ffffffa1;
 .accordion-button:focus {
 box-shadow: none;
 }
-
-.footercontato {
-    margin: 0px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.bodysection {
-    height: auto;
-    width: auto;
-}
+/*------------------------------------*/
