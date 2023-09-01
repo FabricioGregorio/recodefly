@@ -51,7 +51,11 @@ body, html {
     width: 100%;
 }
 /*------------------------------------*/
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
 .texto-menor {
     font-size: 13px;
 }
