@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promoções</title>
+    <link rel="shortcut icon" href="icones/RecodeFlyico.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluido">
+      <header class="header">
+        <nav class="navbar navbar-expand-md bg-black navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><h1 class="m-0">
+                <img class="d-block" src="imagens/logo/RecodeFlyLogo.png" alt="Logo da RecodeFly" /></h1
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link texto-azul" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texto-azul" href="destino.html">Destino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texto-azul active" aria-current="page" href="promocoes.html"
+                    >Promoções</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texto-azul" href="contato.html">Contato</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2 rounded-0"
+                  type="search"
+                  placeholder="Pesquise um destino"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="main-content">
+        <div class="jumbotron jumbotron-fluid imagem-de-fundo tamanhopromocao">
+          <div class="container">
+            <h1 class="display-4">5% OFF em pagamentos via PIX!</h1>
+            <p class="lead">Cheque todas as opções de desconto abaixo!</p>
+          </div>
+          <!-- ACCORDION -->
+          <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    5% VIA PIX
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Explore o mundo conosco e economize de maneira incrível! Com as nossas promoções
+                    exclusivas, você ganha 5% de desconto em todas as suas viagens ao escolher a opção de
+                    pagamento via Pix. E as vantagens não param por aí! Na sua segunda estadia conosco, essa
+                    promoção dobra, proporcionando a você um incrível desconto de 10% no valor total. É a
+                    nossa forma de agradecer por confiar em nós para tornar as suas viagens ainda mais
+                    especiais. Aproveite as ofertas e embarque em experiências inesquecíveis com a nossa
+                    agência de viagens.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Amigos na Bagagem - Descontos para Grupos:
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Viajar é sempre melhor quando compartilhado com amigos e familiares. Com a nossa promoção
+                    "Amigos na Bagagem", você e seus companheiros de viagem podem desfrutar de descontos
+                    incríveis! Reserve uma viagem em grupo de pelo menos 4 pessoas e ganhe automaticamente 15%
+                    de desconto no valor total. Quanto mais amigos você traz, maior é a economia! Explore
+                    destinos juntos e crie memórias inesquecíveis, tudo isso enquanto economiza.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Destino Surpresa - Desconto na Próxima Viagem:
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Prepare-se para uma aventura emocionante com a nossa promoção "Destino Surpresa"! Após
+                    completar uma viagem conosco, você terá direito a um desconto especial de 8% na sua
+                    próxima reserva. A melhor parte? O destino será uma surpresa até você efetuar a reserva!
+                    Deixe-nos cuidar dos detalhes enquanto você se prepara para uma experiência única.
+                    Desvende novos horizontes e aproveite um desconto especial como agradecimento por escolher
+                    a nossa agência de viagens.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="text-center bg-black text-bg-dark">
+        <p class="py-3 my-0">
+          2023 <i class="bi bi-c-circle"></i> Desenvolvido por
+          <a
+            href="https://github.com/FabricioGregorio?tab=repositories"
+            class="text-decoration-none bg-black text-bg-dark fw-bold"
+            >Fabrício Gregório</a
+          >
+          | Projeto fictício sem fins comerciais
+        </p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
