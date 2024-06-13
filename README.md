@@ -17,8 +17,3 @@ __Front-end:__
 
 Atualizar a versão anterior do site, refatorando se preciso as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo de dados usando HTML, CSS Bootstrap. 
 Faça as formatações de acordo com a paleta de cores escolhida. 
-
-_Para contato:_ 
-* Twitter: @fabriciosgreg
-* GitHub: FabricioGregorio
-* Email: fabriciogregoriocontato@gmail.com
