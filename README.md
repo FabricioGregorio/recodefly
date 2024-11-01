@@ -1,4 +1,6 @@
-# Objetivos para segunda entrega:
+# Projeto avaliativo do programa RecodePro:
+
+# Objetivos:
 
 __Modelagem de dados:__
  
