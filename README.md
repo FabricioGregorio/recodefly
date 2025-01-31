@@ -1,21 +1,20 @@
-# Projeto avaliativo do programa RecodePro:
+# Projeto Avaliativo do Programa RecodePro
 
-# Objetivos:
+## Objetivos  
 
-__Modelagem de dados:__
- 
-Criar o modelo conceitual e lógico do banco de dados, usando uma ferramenta de modelagem de dados (BRmodelo) 
-Criar as relações e cardinalidades entre as tabelas do modelo do banco
-Criar o modelo físico (tabelas e relações) usando SQL
-Criar o modelo do sistema (Classes) em UML e Java 
- 
-__Back-end:__ 
- 
-Usando os conceitos da orientação a objetos em Java, criar um projeto do tipo console da agencia de viagens, aplicando o CRUD (Create, Read, Update, Delete) para todas as tabelas de seu modelo de banco de dados 
-Para a atividade vamos usar classes Java, JDBC e MySql 
- 
+### Modelagem de Dados  
 
-__Front-end:__ 
+- Criar o modelo conceitual e lógico do banco de dados, usando uma ferramenta de modelagem de dados (**BRModelo**).  
+- Criar as relações e cardinalidades entre as tabelas do modelo do banco.  
+- Criar o modelo físico (tabelas e relações) usando **SQL**.  
+- Criar o modelo do sistema (classes) em **UML e Java**.  
 
-Atualizar a versão anterior do site, refatorando se preciso as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo de dados usando HTML, CSS Bootstrap. 
-Faça as formatações de acordo com a paleta de cores escolhida. 
+### Back-end  
+
+- Usando os conceitos da **orientação a objetos em Java**, criar um projeto do tipo **console** da agência de viagens, aplicando o **CRUD** (Create, Read, Update, Delete) para todas as tabelas do meu modelo de banco de dados.  
+- Para essa atividade, vou usar **classes Java, JDBC e MySQL**.  
+
+### Front-end  
+
+- Atualizar a versão anterior do site, refatorando, se necessário, as páginas: **Home, Destino, Promoções, Contato** e as demais, de acordo com o meu modelo de dados, usando **HTML, CSS e Bootstrap**.  
+- Fazer as formatações de acordo com a **paleta de cores escolhida**.  
